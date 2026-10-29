@@ -1,0 +1,10 @@
+{
+  "name": "watch-rotate",
+  "version": "1.0.0",
+  "description": "Watch a folder and keep timestamped rotating backups of changed files",
+  "bin": { "watch-rotate": "bin/watch-rotate.js" },
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "files": ["bin", "src"]
+}
